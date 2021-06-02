@@ -63,10 +63,6 @@ public class Main {
         System.out.println(body);
 
     }
-
-
-   //  interface LambdaRequestBuilder {
-   //      String concat(String rMethod, String baseUrl, String lat, String lon, String limit, String lang, String extra);
-   //  }
+    
 
 }
