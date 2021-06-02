@@ -1,6 +1,7 @@
 package YandexPogodaAPI;
 
 import okhttp3.*;
+
 import java.io.IOException;
 
 public class Main {
@@ -9,9 +10,9 @@ public class Main {
 
     private static final String X_Yandex_API_Key = "d1f7066b-1213-43ab-950b-a6be055d4972";
     private static final String BASE_HOST = "api.weather.yandex.ru";
-    private static final String API_VER="v2";
+    private static final String API_VER = "v2";
     private static final String PATH_SEGMENT = "forecast";
-    private static final String LAT ="59.95";
+    private static final String LAT = "59.95";
     private static final String LON = "30.16";
     private static final String LIMIT = "5";
     private static final String LANG = "ru_RU";
@@ -63,6 +64,6 @@ public class Main {
         System.out.println(body);
 
     }
-    
+
 
 }
